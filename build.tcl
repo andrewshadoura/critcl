@@ -11,11 +11,12 @@ proc main {} {
     exit 0
 }
 set packages {
-    {critcl        critcl.tcl}
-    {critcl-util   util.tcl}
-    {critcl-class  class.tcl}
-    {critcl-iassoc iassoc.tcl}
-    {app-critcl   ../critcl/critcl.tcl critcl-app}
+    {critcl         critcl.tcl}
+    {critcl-util    util.tcl}
+    {critcl-class   class.tcl}
+    {critcl-iassoc  iassoc.tcl}
+    {critcl-objtype objtype.tcl}
+    {app-critcl     ../critcl/critcl.tcl critcl-app}
     util84
     stubs
 }
